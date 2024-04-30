@@ -72,9 +72,11 @@
 {
     color: lightblue;
     text-align: center;
-    background-color:salmon;
+    background-color:grey;
     width: 200px;
     height: 50px;
+    border: 1px solid wheat;
+    
 
 }
 
@@ -148,9 +150,47 @@
     text-decoration: underline wavy;
 }
 
+.box
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .final
 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 55px;
+    background-color: lightblue;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.txt
+{
+    display: flex;
+    font-weight: 900;
+    font-size: x-large;
+    background-color: lightblue;
+    margin-bottom: 45px;
+    margin-right: auto;
+}
+.subtxt
+{
     display: flex;
     background-color: lightblue;
+    gap: 80px;
+    margin-right: auto;
+    
+}
+
+
+.copyright
+{
+    text-align: center;
+    flex:1;
+    background-color:#1F2937;
+    color: white;
+    height: 30px;
 }
