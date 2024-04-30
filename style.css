@@ -1,0 +1,156 @@
+*
+{
+    background-color:#1F2937 ;
+}
+.headers
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    background-color: #1F2937;
+    margin-bottom: 200px;
+}
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    padding: 40px;
+    color: beige;
+}
+
+.poza1
+{
+    height: 150px;
+    width: 200px;
+    padding: 20px;
+}
+.butt
+{
+    color: yellow;
+    height: 30px;
+    width: 100px;
+}
+.cutiemaretitluri
+{
+    display: flex;
+    align-items:start;
+    margin-bottom: 200px;
+}
+.titluri
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 300px;
+    flex: 1;
+}
+.titlu{
+    font-size: xx-large;
+    color: white;
+    font-style: italic;
+    margin-bottom: 45px;
+    
+    
+}
+.subtitlu
+{
+    font-size: medium;
+    font-style: oblique;
+    color: whitesmoke;
+    margin-bottom: 60px;
+}
+
+.poza2
+{
+    height: 250px;
+    width: 400px;
+    padding: 20px;
+    margin-right: auto;
+}
+.butonas
+{
+    color: lightblue;
+    text-align: center;
+    background-color:salmon;
+    width: 200px;
+    height: 50px;
+
+}
+
+
+
+
+
+.principal
+{
+    display: flex;
+    background-color:#1F2937;
+    margin: 40px;
+    justify-content: center;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+
+
+.titlu2
+{
+    display: flex;
+    text-align: center;
+    font-size: xx-large;
+    flex-direction: column;
+    font-style: oblique;
+    color: cadetblue;
+    margin-bottom: 70px;
+}
+
+.aaa
+{
+    align-items: center;
+    width: 200px;
+    background-color: #1F2937;
+}
+
+.text
+{
+    color: wheat;
+    background-color: #1F2937;
+
+}
+.poza3
+{
+    height: 150px;
+    width:200px;
+}
+
+.citat{
+    color: darkgrey;
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    background-color: darkslategray;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    padding: 200px;
+    margin-bottom: 200px;
+}
+.subcitat
+{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold
+    display: flex;
+    background-color: darkslategray;
+    margin-left: auto;
+    font-style: italic;
+    color:darkgray;
+    text-decoration: underline wavy;
+}
+
+
+.final
+{
+    display: flex;
+    background-color: lightblue;
+}
